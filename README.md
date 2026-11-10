@@ -2,6 +2,8 @@
 
 An interactive 3D villain presentation website. **ABYSSAL KING** (ราชันแห่งห้วงลึก) is an original, fan-made villain character inspired by the world and character-design philosophy of *My Hero Academia*, and his design draws on the biology of the sperm whale. The site is styled as a classified hero-intelligence archive, with a procedurally built 3D character, cinematic scroll animations, and Thai-language content.
 
+[![ABYSSAL KING hero section: the 3D sperm-whale villain with glowing cyan sonar rings on his forehead stands on a holographic platform beside the title "ABYSSAL KING — ราชันแห่งห้วงลึก"](docs/images/abyssal-king-preview.png)](https://shibaan.github.io/abyssal-king/)
+
 ### 🌊 [Live Demo → shibaan.github.io/abyssal-king](https://shibaan.github.io/abyssal-king/)
 
 [![Deploy to GitHub Pages](https://github.com/shibaan/abyssal-king/actions/workflows/deploy.yml/badge.svg)](https://github.com/shibaan/abyssal-king/actions/workflows/deploy.yml)
@@ -79,6 +81,7 @@ Use a modern browser with **WebGL** support, such as current versions of Chrome,
 ```
 abyssal-king/
 ├── .github/workflows/deploy.yml   # GitHub Pages build & deploy
+├── docs/images/                   # README screenshots (not part of the site build)
 ├── public/                        # static assets (favicon)
 ├── src/
 │   ├── components/                # shared UI: navbar, loader, cursor, reveal helpers
